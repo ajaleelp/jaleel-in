@@ -1,0 +1,25 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/node_modules
+/yarn-error.log
+
+coverage
+public/uploads
+tags
+.tags*
+
+# Ignore IDE-specific files.
+/.idea/
+
+# Ignore OS-specific files.
+*.DS_Store
+
+# Ignore dotenv files.
+.env*
